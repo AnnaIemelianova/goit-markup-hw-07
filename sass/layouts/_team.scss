@@ -1,0 +1,48 @@
+.team {
+    background-color: var(--light-bg-color);
+
+    &__title {
+        margin-bottom: 50px;
+        font-size: 36px;
+        line-height: 1.66;
+        text-align: center;
+    }
+
+    &__people-list {
+        display: flex;
+    }
+}
+
+.people-list {
+
+    &__item {
+        background-color: var(--white-color);
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    &__container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        color: var(--secondary-txt-color);
+        margin-bottom: 16px;
+    }
+}
